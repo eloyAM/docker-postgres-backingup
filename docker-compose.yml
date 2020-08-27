@@ -1,0 +1,15 @@
+version: '3'
+services:
+  db:
+    image: postgres
+    environment:
+      - POSTGRES_PASSWORD=postgres-password
+    ports:
+      - '5432:5432'
+    volumes:
+      - 'postgres_data:/var/lib/postgresql/data'
+      - 'postgres_backups:/var/lib/postgresql/backups'
+      - './configure-backups.sql:/docker-entrypoint-initdb.d/configure-backups.sql'
+volumes:
+  postgres_data:
+  postgres_backups:
