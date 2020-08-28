@@ -5,10 +5,10 @@ Enlaces de interés:
 
 - [Documentación de PostgreSQL: Continuous Archiving and Point-in-Time Recovery (PITR)](https://www.postgresql.org/docs/current/continuous-archiving.html)
 - [Documentación de PostgreSQL: Configuración Write Ahead Log](https://www.postgresql.org/docs/current/runtime-config-wal.html)
-- Herramientas de backup y restauración:
-  [barman](https://www.pgbarman.org/),
-  [wal-e](https://github.com/wal-e/wal-e),
+- [Herramientas de backup y restauración](https://awesomeopensource.com/project/dhamaniasad/awesome-postgres#backups):
   [wal-g](https://github.com/wal-g/wal-g),
+  [barman](https://www.pgbarman.org/),
+  [pitrery](https://dalibo.github.io/pitrery/),
   [pg_backrest](https://pgbackrest.org/),
   [pg_probackup](https://github.com/postgrespro/pg_probackup)
 - [Tutorial de scalingpostgres.com](https://www.scalingpostgres.com/tutorials/postgresql-backup-point-in-time-recovery/) (Ojo, con la versión 10. Algunas cosas cambian)
